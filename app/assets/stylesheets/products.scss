@@ -19,6 +19,7 @@ main section.categories-show {
       grid-template-columns: 1fr;
     }
     article {
+      
       .soldout {
         min-width: 110px;
         background: rgba(224, 14, 14, 0.8);
@@ -29,7 +30,6 @@ main section.categories-show {
         font-size: 1rem;
         border-radius: 0.25rem;
       }
-
       a {
         text-decoration: none;
       }
@@ -49,9 +49,13 @@ main section.categories-show {
           color: white;
         }
 
-        button {
+        form > button{
           background: white;
           color: rgba(0, 130, 29, 0.7);
+        }
+        .soldout {
+          background: white;
+          color: rgba(224, 14, 14, 0.8);;
         }
       }
       img {
