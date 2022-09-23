@@ -1,0 +1,15 @@
+// Place all the styles related to the About controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+main section.products-index{
+  h1 {
+    font-weight: 900;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    font-style: italic;
+    color: green
+  }
+  p {
+    font-weight: 700;
+  }
+}
